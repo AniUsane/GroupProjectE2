@@ -1,6 +1,17 @@
+:root {
+  --background-color: #f9f9f9;
+  --cyan: #4ce0d7;
+  --black: #262626;
+  --white: #FFFFFF;
+  --gray: #BCBCBC;
+}
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
 }
