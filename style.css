@@ -17,6 +17,76 @@ body {
   background-color: #F9F9F9;
 }
 
+/*Topic Section */
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 37px 84px 47px;
+}
+h2 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  margin-bottom: 48px;
+}
+
+.topic-cards {
+  display: flex;
+  gap: 10px;
+}
+
+.topic-card {
+  border-radius: 20px;
+  padding: 51px 30px 30px;
+  box-shadow: 0px 6px 6px 0px #0000000d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 27px;
+}
+
+.topic-img {
+  width: 88px;
+  height: 88px;
+  align-items: center;
+}
+
+.topic-card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+}
+
+.topic-card button {
+  border-radius: 40px;
+  background-color: var(--cyan);
+  border: none;
+  padding: 10px 40px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  width: 144px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+.topic-card button:hover {
+  color: var(--cyan);
+  background-color: var(--black);
+}
+
+.topics {
+  margin-bottom: 50px;
+}
+
+
 /* The latest trends css */
 
 .third-container {
