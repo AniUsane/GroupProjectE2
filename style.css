@@ -373,3 +373,90 @@ font-weight: 700;
 line-height: 48px;
 margin-left: 160px;
 }
+
+/* Info section */
+.info-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  margin-bottom: 69px;
+}
+
+.info-card {
+  display: flex;
+  align-items: center;
+  gap: 46px;
+  width: 1204px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.05);
+  margin: 0 auto;
+}
+
+.div-image {
+  position: relative;
+  width: 548px;
+  height: 367px;
+}
+
+.div-image img {
+  width: 548px;
+  height: 367px;
+  border-radius: 20px;
+}
+
+.div-image h5 {
+  position: absolute;
+  top: 25px;
+  left: 34px;
+}
+
+.info-info-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.info-info-card p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #262626;
+  line-height: 24px;
+  margin-bottom: 29px;
+}
+
+.info-trend,
+.info-trend div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info-trend div {
+  gap: 17px;
+}
+
+.date-posted {
+  margin-right: 58px;
+  width: 168px;
+}
+
+.info-trend p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #bcbcbc;
+  margin-top: 26px;
+}
+
+.info-fashion-tag,
+.fashion-tag-info {
+  padding: 10px 53px;
+  width: 175px;
+  text-wrap: nowrap;
+  text-align: center;
+}
+
+.fashion-tag-info {
+  padding: 10px 23px;
+}
