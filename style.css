@@ -16,12 +16,9 @@
 body {
   background-color: #F9F9F9;
 }
+/* Topic section */
 
 
-img {
-  height: 100%;
-  width: 100%;
-}
 
 .container {
   max-width: 1440px;
@@ -38,18 +35,25 @@ h2 {
 .topic-cards {
   display: flex;
   gap: 10px;
+  
 }
 
 .topic-card {
   border-radius: 20px;
   padding: 51px 30px 30px;
-  box-shadow: 0px 6px 6px 0px #0000000d;
+  box-shadow: 0px 8px 8px 0px #0000000d;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 27px;
+  
 }
+.topic-cards :hover{
+  background-color: #8ec5c1;
+  
+}
+
 
 .topic-img {
   width: 88px;
@@ -79,11 +83,14 @@ h2 {
 
 .topic-card button:hover {
   color: var(--cyan);
-  background-color: var(--black);
+  background-color: #38beb5;
 }
 
 .topics {
   margin-bottom: 50px;
+}
+.hrtopic{
+  margin-bottom: 52.5px;
 }
 
 
