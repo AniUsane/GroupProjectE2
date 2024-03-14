@@ -33,6 +33,16 @@ body {
   max-width: 1227px;
   margin-bottom: 47px;
 }
+
+.sticky {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--background-color);
+  z-index: 2;
+}
+
 .logo {
   max-width: 234px;
 }
@@ -104,6 +114,7 @@ li button {
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0 auto;
+  margin-top: 140px;
   margin-bottom: 73px;
   padding: 218px 0 141px 53px;
   border-radius: 30px;
