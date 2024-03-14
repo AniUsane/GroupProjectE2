@@ -624,6 +624,5 @@ h2 {
 }
 
 .social-icons a:hover{
-  background-color: var(--black);
-  border-radius: 20px;
+  transform:scale(1.5);
 }
