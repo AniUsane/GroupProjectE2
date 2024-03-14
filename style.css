@@ -29,7 +29,7 @@ body {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  padding: 37px 0 47px 0;
+  padding-top: 37px;
   max-width: 1227px;
   margin-bottom: 47px;
 }
@@ -145,16 +145,37 @@ h1 span {
 }
 
 /* Topics section css */
-.container {
-  max-width: 1440px;
+.topics-container,
+.trending-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 48px;
+  max-width: 1272px;
   margin: 0 auto;
-  padding: 37px 84px 47px;
+  margin-bottom: 88px;
+}
+
+.trending-container {
+  max-width: 1204px;
+  gap: 0;
+}
+
+.topics-line {
+  border: 1px solid var(--gray);
+  max-width: 1267px;
+  margin: 0 auto;
+  margin-bottom: 53px;
+}
+
+.container {
+  width: 100%;
 }
 h2 {
   font-size: 32px;
   font-weight: 700;
   line-height: 48px;
-  margin-bottom: 48px;
 }
 
 .topic-cards {
@@ -442,7 +463,6 @@ h2 {
   font-size: 32px;
   font-weight: 700;
   line-height: 48px;
-  margin-left: 160px;
 }
 
 /* Info section */
@@ -581,7 +601,6 @@ h2 {
 }
 
 .hr-line {
-  border: 1px solid var(--gray);
   margin: 0 87px;
 }
 
