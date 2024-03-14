@@ -612,7 +612,7 @@ h2 {
   margin: 34px 0 37px 88px;
 }
 
-.social-icons img:hover {
+.social-icons a:hover{
   background-color: var(--black);
   border-radius: 20px;
 }
